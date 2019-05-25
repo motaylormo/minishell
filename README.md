@@ -11,4 +11,6 @@ A mini-shell that reads and evaluates simple commands from the user. This is my 
 * `wait()` to have the parent process wait until the child processes ends
 ### Signals
 * `kill()` to send a signal to a process
+**  `sig_t` is ?
 * `signal()` to catch a signal
+**  `pid_t` is a signed int
