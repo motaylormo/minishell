@@ -16,3 +16,8 @@ A mini-shell that reads and evaluates simple commands from the user.
     * `sig_t` is ?
 * `signal()` to catch a signal
     * `pid_t` is a signed int
+
+# Bonuses
+* `-p` flag for path prompt
+* Management of signals and in particular ctrl-c
+* Separation of commands with `;`
