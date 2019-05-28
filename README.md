@@ -19,5 +19,5 @@ A mini-shell that reads and evaluates simple commands from the user.
 
 # Bonuses
 * `-p` flag for path prompt
-* Management of signals and in particular ctrl-c
+* Management of signals (ctrl-C, ctrl-D)
 * Separation of commands with `;`
