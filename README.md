@@ -7,6 +7,10 @@ A mini-shell that reads and evaluates simple commands from the user.
 * `getcwd()` to copy the absolute pathname of the current working directory into a buffer
 * `chdir()` to change directories
 * `access()` to check the accessibility of a file
+    * `R_OK` read permission
+    * `W_OK` write permission
+    * `X_OK` execute/search permission
+    * `F_OK` existence test
 * `execve()` to run an executable
 ### Processes
 * `fork()` to fork the process into a parent process and child process
