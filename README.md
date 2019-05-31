@@ -4,7 +4,6 @@ This is my version of the **[42](https://www.42.us.org/)** cadet project `minish
 A mini-shell that reads and evaluates simple commands from the user.
 
 ## Functions used
-* `opendir`, `readdir`, `closedir`
 * `getcwd()` to copy the absolute pathname of the current working directory into a buffer
 * `chdir()` to change directories
 * `access()` to check the accessibility of a file
