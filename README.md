@@ -26,3 +26,10 @@ A mini-shell that reads and evaluates simple commands from the user.
 * Management of signals (ctrl-C, ctrl-D)
 * Separation of commands with `;`
 * Management of execution rights in the PATH
+
+### Termcaps
+I begain to just barely dabble in termcaps for this project: just enough to delete the `^C` after ctrl-C.
+* `<termcap.h>` needs `-lcurses` in the Makefile
+* `tgetent()` loads the entry for _name_
+* `tgetstr()` returns the string entry for _id_
+* `tgoto()` moves the curser
