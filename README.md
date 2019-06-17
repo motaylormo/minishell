@@ -33,3 +33,7 @@ I begain to just barely dabble in termcaps for this project: just enough to dele
 * `tgetent()` loads the entry for _name_
 * `tgetstr()` returns the string entry for _id_
 * `tgoto()` moves the curser
+
+## Fixes
+* Account for 0 columns edgecase
+* Usage
